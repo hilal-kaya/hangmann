@@ -10,8 +10,6 @@ Bu proje, klasik "Adam Asmaca" (Hangman) oyununun JavaScript, HTML ve CSS kullan
 <img width="1440" alt="Ekran Resmi 2025-06-01 19 24 51" src="https://github.com/user-attachments/assets/5872e9d7-0200-4c88-89cc-a21d109755bc" />
 
 
-## 🎮 Demo  
- [Tıkla ve oyna](https://hilal-kaya.github.io/hangmann)
 
 ---
 
