@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <title>Hangman Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="game-music" src="game.mp3" autoplay muted loop></audio>
+    <button id="toggle-music">⊳ Play Music</button>
+    <h1>Hangman Game</h1>
+    <div class="part">
+      <div id="options-part"></div>
+      <div id="letter-part" class="letter-part hide"></div>
+      <div id="user-input-section"></div>
+      <canvas id="canvas"></canvas>
+      <div id="new-game-part" class="new-game-popup hide">
+        
+        <div id="result-text"></div>
+        <button id="new-game-button">New Game</button>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
